@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    overflow-x: hidden;
+}
+
+
+.firstimg{
+    background: url("./asset/firstimg.jpg");
+ 
+  }
+.bowl{
+    background: url("./asset/second.webp");
+    /* background-repeat: no-repeat; */
+}  
+
+.bowls {
+    background: url("./asset/bowls.jpg");
+    
+    
+}
+
+.third {
+    background: url("./asset/third.svg");
+    background-repeat: no-repeat;
+}
